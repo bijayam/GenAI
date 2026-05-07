@@ -1,0 +1,21 @@
+Sample User Queries for RAG Testing
+==============================================
+1. Why is my Windows 11 laptop slow after startup?
+
+2. How do I fix Wi-Fi not connecting in Windows 11 desktop ?
+
+3. What should I do after a blue screen error in Windows 11 desktop?
+
+4. In my windows 11 laptop, printer connected but not printing.
+
+5. How to repair corrupted Windows files in my laptop ?
+
+6. USB device not recognized troubleshooting steps in windows laptop .
+
+5. Laptop overheating solution.
+
+8. No sound from speakers in Windows.
+
+9. Windows update stuck at 0%.
+
+10. Applications crashing repeatedly on Windows PC.
