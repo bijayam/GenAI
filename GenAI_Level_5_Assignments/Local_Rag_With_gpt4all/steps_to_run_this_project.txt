@@ -1,5 +1,10 @@
 
 A. Download and install gpt4all-installer-win64.exe
+1. download the LLM model: Llama 3.2 Instruct inside gpt4all tool.
+2. while running the python program, the model will be downloaded to 
+	C:\Users\bijay\.cache\huggingface\hub\models--sentence-transformers--all-MiniLM-L6-v2\snapshots\c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+3. we can copy the model directory (the directory which contains config.json) to another place and use with full path.
+
 
 
 B. checkout this Local_Rag_With_gpt4all 
