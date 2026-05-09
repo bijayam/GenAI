@@ -1,0 +1,11 @@
+
+A. Download and install gpt4all-installer-win64.exe
+
+
+B. checkout this Local_Rag_With_gpt4all 
+1. cd Local_Rag_With_gpt4all
+2. create a python virtual environment: #python -m venv raggpt4all
+3. activate virtual environment: #raggpt4all\Scripts\Activate
+4. install all the requirements by running: #pip install -r requirements.txt
+5. run the rag_main.py : #python local_rag.py
+6. Ask question from Questions.txt

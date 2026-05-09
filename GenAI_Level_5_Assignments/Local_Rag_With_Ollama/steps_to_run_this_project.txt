@@ -1,0 +1,30 @@
+
+A. Download and configure Ollama server:
+1. download OllamaSetup.exe from : https://ollama.com/download/windows
+2. pull the below models which are used in this project:
+	a. For LLM: llama3.2:3b
+	b. For embedding: mxbai-embed-large
+	
+	C:\BIJAY\GenAI\DesktopLLMs\Ollama>ollama list
+	NAME                        ID              SIZE      MODIFIED
+	mxbai-embed-large:latest    468836162de7    669 MB    7 seconds ago
+	llama3.2:3b                 a80c4f17acd5    2.0 GB    38 minutes ago
+	
+3. Install Ollama : #pip install ollama
+4. Start Ollama server : #ollama serve
+5. make sure ollama server is running:
+		C:\BIJAY\GenAI\DesktopLLMs\Ollama>
+		C:\BIJAY\GenAI\DesktopLLMs\Ollama>tasklist |findstr ollama
+			ollama app.exe                4064 Console                    1     15,864 K
+			ollama.exe                   33496 Console                    1     37,832 K
+
+C:\BIJAY\GenAI\DesktopLLMs\Ollama>
+
+
+B. checkout this project1. 
+1. cd Local_Rag_With_Ollama
+2. create a python virtual environment: #python -m venv localrag
+3. activate virtual environment: #localrag\Scripts\Activate
+4. install all the requirements by running: #pip install -r requirements.txt
+5. run the rag_main.py : #python rag_main.py
+6. Ask question from Questions.txt

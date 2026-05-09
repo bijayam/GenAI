@@ -1,0 +1,7 @@
+gpt4all
+chromadb 
+pypdf 
+sentence-transformers
+transformers
+huggingface_hub
+httpx
