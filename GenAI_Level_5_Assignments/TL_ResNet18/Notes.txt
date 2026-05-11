@@ -1,0 +1,10 @@
+
+Transfer Learning Assignment:
+-> Using ImageNet-pretrained ResNet for cat vs dog classification → just replace and train the last classification layer so that it can detect objects such as car, truck, bicycle and a pedestrian
+
+
+1. create a folder TL_ResNet18 and cd into it
+	-create a python virtual environment: python -m venv tlresnet18
+	-activate virtual environment: tlresnet18\Scripts\Activate
+	-install all the requirements by running: pip install -r requirements.txt
+	-create a .env file to store the entire configuration.
